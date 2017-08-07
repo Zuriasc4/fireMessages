@@ -14,16 +14,11 @@
 
 
 
-    <!--jquery-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Eczar" rel="stylesheet">
 
-    <!--custom files-->
-    <script src="lib/js/main.js"></script>
-    <link rel="stylesheet" href="lib/css/style.css">
-
+    
 </head>
 <body>
 
@@ -51,5 +46,30 @@
             </div>
         </form>
     </div>
+
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js">
+</script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDSI3IoavLZS6ZS789lSpzlLE46oqmkgl4",
+        authDomain: "my-chatapp-e7856.firebaseapp.com",
+        databaseURL: "https://my-chatapp-e7856.firebaseio.com",
+        projectId: "my-chatapp-e7856",
+        storageBucket: "",
+        messagingSenderId: "249743540779"
+    };
+    firebase.initializeApp(config);
+
+</script>
+
+    <!--jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--custom files-->
+<script src="lib/js/main.js"></script>
+<link rel="stylesheet" href="lib/css/style.css">
+
+
 </body>
 </html>
